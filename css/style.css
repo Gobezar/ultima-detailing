@@ -1,0 +1,374 @@
+@font-face {
+	font-family: "BebasNeue-Regular";
+	src: url(../fonts/BebasNeue-Regular.ttf)
+}
+
+@font-face {
+	font-family: "RubikGlitch-Regular";
+	src: url(../fonts/RubikGlitch-Regular.ttf);
+}
+
+@font-face {
+	font-family: "AlumniSans-Italic-VariableFont_wght";
+	src: url(../fonts/AlumniSans-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+	font-family: "AlumniSans-VariableFont_wght";
+	src: url(../fonts/AlumniSans-VariableFont_wght.ttf);
+}
+
+.background {
+	background-image: url(../img/mers-1.jpg);
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+
+}
+
+.price,
+.map {
+	background: linear-gradient(90deg, rgb(176, 139, 89), rgb(202, 189, 170) 55%, rgb(116, 116, 116));
+}
+
+.works,
+.contacts {
+	background-color: #cccaca;
+}
+
+
+/**************************Шапка*******************************/
+.navbar {
+	background-color: rgba(204, 202, 202, 0.3);
+    
+}
+
+
+.navbar img {
+	width: 40%;
+	height: auto;
+	overflow: hidden;
+	display: flex;
+	background-size: cover;
+}
+
+.navbar-brand {
+	margin-left: 50px;
+	font-family: AlumniSans-VariableFont_wght;
+	color: black;
+	font-weight: lighter;
+	font-size: 30px;
+}
+
+.navbar-nav li {
+	margin-right: 50px;
+	font-family: AlumniSans-VariableFont_wght;
+	font-weight: lighter;
+	font-size: 30px;
+}
+
+.navbar-nav li:hover {
+	border-bottom: 1px solid black;
+}
+
+/**************************Основа*******************************/
+
+.osnova {
+	padding-top: 50px;
+}
+
+.osnova img {
+	transition: 0.5s;
+    zoom: 60%;
+	}
+
+.osnova img:hover {
+	transition: 0.5s;
+	transform: scale(1.1);
+}
+
+/**************************Cвязаться с нами*******************************/
+
+.phone .btn {
+	width: 300px;
+	justify-content: center;
+	display: flex;
+	margin: 0 auto;
+}
+
+.phone .btn:hover {
+	background: #f7bb03;
+	color: #000;
+}
+
+.phone {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #e7e7e7;
+	font-family: AlumniSans-VariableFont_wght;
+}
+
+/**************************Cоциальные сети *******************************/
+
+.social {
+	padding-bottom: 100px;
+	padding-top: 50px;
+	text-align: center;
+	font-family: AlumniSans-VariableFont_wght;
+
+}
+
+.itd_triangle {
+
+	margin-right: -3px;
+	border-style: solid;
+	border-width: 10px 0 10px 20px;
+	border-color: transparent transparent transparent #fff;
+
+}
+
+.itd_triangle:hover {
+
+	border-color: transparent transparent transparent #000;
+}
+
+.itd_play {
+	background-color: #f7bb03;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	border: 1px solid #fff;
+	margin-top: 10px;
+
+}
+
+.itd_play:hover {
+	background-color: #fff;
+	border: 5px;
+	border-color: black;
+}
+
+.social img {
+	height: 30px;
+	text-align: center;
+	vertical-align: center;
+
+}
+
+.social .btn {
+	border-radius: 60%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+	background-color: #f7bb03;
+}
+
+.social .inst,
+.social .vk,
+.social .youtube {
+	text-decoration: none;
+	font-family: AlumniSans-VariableFont_wght;
+	color: white;
+	font-weight: lighter;
+	margin-left: 5px;
+
+}
+
+.social .itd_play {
+	display: inline-flex;
+}
+
+.social {
+	background-color: #11100C;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+
+/**************************Наши услуги*******************************/
+
+.works {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e7e7e7;
+	font-family: AlumniSans-VariableFont_wght;
+
+}
+
+.works .btn {
+	width: 300px;
+	justify-content: center;
+	display: flex;
+	margin: 0 auto;
+
+}
+
+.works .btn:hover {
+	background: #f7bb03;
+	color: #000;
+}
+
+/*********************************Прайс**************************************/
+.price {
+	border-bottom: 1px solid #e7e7e7;
+	font-family: AlumniSans-VariableFont_wght;
+}
+
+/*********************************Контакты**************************************/
+.contacts {
+	border-bottom: 1px solid #e7e7e7;
+	font-family: AlumniSans-VariableFont_wght;
+    text-align: left;
+}
+
+.contacts h5 {
+	font-size: 20px;
+    text-align: left;
+}
+
+.contacts p span {
+	font-size: 20px;
+
+}
+
+.contacts input[type="text"],
+input[type="email"] {
+	width: 470px;
+	height: 60px;
+	border-radius: 6px;
+	background: none;
+	border: 1px solid #535353;
+	color: #000;
+	font-size: 17px;
+	display: block;
+	padding-left: 30px;
+	margin: 20px auto;
+}
+
+.contacts textarea {
+	width: 470px;
+	height: 200px;
+	border-radius: 6px;
+	background: none;
+	border: 1px solid #535353;
+	color: #878787;
+	font-size: 17px;
+	display: block;
+	padding: 30px;
+	margin: 20px auto;
+	resize: none;
+}
+
+.contacts .btn {
+	width: 300px;
+
+}
+
+.contacts .btn:hover {
+	background: #f7bb03;
+	color: #000;
+}
+
+/**********************************Карта*************************************/
+.map {
+	border-bottom: 1px solid #e7e7e7;
+	font-family: AlumniSans-VariableFont_wght;
+}
+
+.ymaps-2-1-79-map {
+	border: 1px solid #535353;
+}
+
+/**************************Футер*******************************/
+
+.footer {
+	height: fit-content;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+/**************************Адаптивность*******************************/
+@media (min-width: 576px) {
+	.social .btn {
+		margin-top: 10px;
+		margin-right: 12px;
+	}
+
+	.social .btn-inst {
+		margin-left: 50px;
+	}
+
+	.social .btn-vk {
+		margin-left: 75px;
+	}
+
+	.social .itd_play {
+		margin-left: 12px;
+		margin-right: 12px;
+	}
+
+	.contacts .btn {
+		margin-left: 200px;
+	}
+
+
+}
+
+@media (max-width: 575px) {
+
+	.contacts h5,
+	.contacts .adress,
+    .contacts p {
+		text-align: center;
+	}
+
+	.contacts .btn {
+		margin-left: 130px;
+	}
+
+	.social .itd_play {
+		margin-left: 12px;
+	}
+
+	.contacts input,
+	.contacts textarea {
+		max-width: 70%;
+		margin: 15px auto;
+	}
+
+	.contacts .btn {
+		max-width: max-content;
+		justify-content: center;
+	}
+  
+    .social .btn {
+        margin-top: 10px;
+    }
+
+    .social .btn-inst {
+        margin-left: 30px;
+    }
+
+    .social .btn-vk {
+        margin-left: 38px
+    }
+    .navbar-brand {
+        margin-left: 10px;
+        max-width: 265px;   
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #000;
+    }
+    .phone .btn {
+        margin-top: 20px;
+    }
+}
